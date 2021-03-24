@@ -6,7 +6,7 @@ import plant3 from '../img/car-plant-3.jpg';
 
 const CarouselComp = props => {
   return (
-    <Carousel fade className="carousel">
+    <Carousel fade className="carousel mb-5">
       <Carousel.Item>
         <img
           className="d-block w-100 plant-img"

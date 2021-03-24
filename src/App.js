@@ -18,7 +18,10 @@ function App() {
         <Nav />
         <Switch>
           <Route path="/about" component={About} />
-          <Route path="/shop" component={Shop} setStatus={setStatus} />
+          <Route
+            path="/shop"
+            render={props => <Shop {...props} setStatus={setStatus} />}
+          />
           <Route path="/find" component={Find} />
         </Switch>
       </div>

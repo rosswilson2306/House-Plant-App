@@ -16,3 +16,8 @@
 .about-para {
   text-align: center;
 }
+
+.filter-plants-menu {
+  outline: none;
+  margin-left: 15px;
+}

@@ -9,7 +9,7 @@ const About = props => {
       </div>
       <div className="p-container">
         <p class="lead about-para">
-          Welcome to House Plants. Where, surpsrise surprise, we sell house
+          Welcome to Pot Plants. Where, surpsrise surprise, we sell house
           plants.
           <br />
           Browse our shop to find the perfect match for your home.

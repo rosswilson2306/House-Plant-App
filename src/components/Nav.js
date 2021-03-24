@@ -5,7 +5,7 @@ const NavBar = props => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
-        <p className="m-2 display-4">House Plants</p>
+        <p className="m-2 display-4">Pot Plants</p>
         <button
           className="navbar-toggler"
           type="button"

@@ -9,7 +9,7 @@ const Shop = ({ setStatus }) => {
   return (
     <div>
       <div className="heading-container">
-        <h1 classNam="h1">Shop</h1>
+        <h1>Shop</h1>
       </div>
       <DropDown setStatus={setStatus} />
       <Container fluid>
