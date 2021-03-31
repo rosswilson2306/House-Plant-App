@@ -21,3 +21,8 @@
   outline: none;
   margin-left: 15px;
 }
+
+.nav-flex-container {
+  display: flex;
+  justify-content: space-between;
+}

@@ -17,7 +17,7 @@ function App() {
       <div className="App">
         <Nav />
         <Switch>
-          <Route path="/about" component={About} />
+          <Route path={['/', '/about']} exact component={About} />
           <Route
             path="/shop"
             render={props => <Shop {...props} setStatus={setStatus} />}
